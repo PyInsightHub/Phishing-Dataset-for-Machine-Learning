@@ -13,49 +13,49 @@ Anti-phishing researchers and experts may find this dataset useful for phishing 
 
 Inquiry Pipeline:
 
-Imports & Config:
+1️⃣ Imports & Config:
 Set up Python environment with essential ML and visualization libraries to ensure a reproducible workflow.
 
-Load Data:
+2️⃣ Load Data:
 Loaded the Phishing vs Legitimate Websites dataset for analysis and model building.
 
-Quick Data Audit:
+3️⃣ Quick Data Audit:
 Checked missing values, data types, and overall dataset health before processing.
 
-Target Column Detection:
+4️⃣ Target Column Detection:
 Identified the dependent variable (phishing / legitimate) to guide model training.
 
-Features & Basic Cleaning:
+5️⃣Features & Basic Cleaning:
 Cleaned, encoded, and standardized the feature set to ensure quality model inputs.
 
-EDA: Class Balance:
+6️⃣ EDA: Class Balance:
 Visualized data imbalance to understand distribution of phishing vs legitimate samples.
 
-EDA: Correlations (Numeric):
+7️⃣ EDA: Correlations (Numeric):
 Explored numerical feature relationships using heatmaps to detect strong correlations.
 
-EDA: Top Feature Distributions:
+8️⃣ EDA: Top Feature Distributions:
 Plotted key feature trends distinguishing phishing from legitimate URLs.
 
-Feature Selection (Optional):
+9️⃣ Feature Selection (Optional):
 Retained the most informative predictors to reduce noise and improve accuracy.
 
-Train/Validation Split:
+🔟Train/Validation Split:
 Split data into training and testing sets to enable unbiased performance evaluation.
 
-Model Pipelines:
+1️⃣1️⃣ Model Pipelines:
 Built modular pipelines for multiple models — Logistic Regression, Decision Tree, and Random Forest.
 
-Train & Evaluate (Holdout):
+1️⃣2️⃣ Train & Evaluate (Holdout):
 Evaluated models on holdout data.RandomForestClassifier delivered the highest F1-score and ROC-AUC — proving most reliable for phishing detection.
 
-Cross-Validation Leaderboard:
+1️⃣3️⃣ Cross-Validation Leaderboard:
 Compared models via cross-validation to confirm RandomForest’s consistent performance.
 
-Feature Importance (Tree-Based):
+1️⃣4️⃣ Feature Importance (Tree-Based):
 Visualized top predictive factors — URL length, HTTPS presence, and domain features were key indicators.
 
-Save Best Model (Optional):
+1️⃣5️⃣ Save Best Model (Optional):
 Saved the final trained model for deployment and real-time phishing detection use.
 
 Random Forest outperformed all models in both F1-score and ROC-AUC, proving ideal for security-based ML detection.
