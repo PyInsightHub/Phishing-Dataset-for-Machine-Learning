@@ -9,8 +9,10 @@ This dataset contains 48 features extracted from 5000 phishing webpages and 5000
 
 Anti-phishing researchers and experts may find this dataset useful for phishing features analysis, conducting rapid proof of concept experiments or benchmarking phishing classification models.
 
+---
 🧠 Goal: To develop a Machine Learning model that accurately identifies phishing websites by analyzing URL-based features — strengthening cybersecurity and user trust through data-driven insights.
 
+---
 Inquiry Pipeline:
 
 1️⃣ Imports & Config:
@@ -59,3 +61,5 @@ Visualized top predictive factors — URL length, HTTPS presence, and domain fea
 Saved the final trained model for deployment and real-time phishing detection use.
 
 Random Forest outperformed all models in both F1-score and ROC-AUC, proving ideal for security-based ML detection.
+
+---
